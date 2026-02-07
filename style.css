@@ -13,7 +13,7 @@ a{
 
 
 #header, #hero, #information, #quote, #sign-up, #footer{
-    max-width: 90%;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 1em;
 }
