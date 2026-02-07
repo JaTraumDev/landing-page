@@ -56,7 +56,8 @@ a{
     flex-shrink: 0;
     font-size: 18px;
     color: #E5E7EB;
-    margin: 1;
+    margin: 0;
+    margin-bottom: 0.5em;
 }
 
 #hero button{
