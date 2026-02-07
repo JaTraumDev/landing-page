@@ -11,11 +11,23 @@ a{
     color: #E5E7EB;
 }
 
-#header{
-    color: white;
+
+#header, #hero, #information, #quote, #sign-up, #footer{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+
+#header-section, #hero-section{
     background-color: #1F2937;
+}
+
+#header{
     display: flex;
-    justify-content: space-around;
+    color: white;
+    justify-content: space-between;
     align-items: center;
     font-size: 24px;
 }
@@ -26,13 +38,14 @@ a{
     gap: 20px;
 }
 
+
 #hero{
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 100px 150px;
+    height: 400px;
     flex-wrap: wrap;
 }
 
@@ -47,7 +60,9 @@ a{
 }
 
 #hero div{
-    flex: 1 1 400px;
+
+    flex: 1;
+
 
 }
 
@@ -77,8 +92,8 @@ a{
     background-color: grey;
     color: white;
     padding: 8em 200px;
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 200px;
+    max-width: 200px;
 }
 
 #hero-image-frame img{
@@ -87,9 +102,6 @@ a{
     flex-shrink: 0;
 }
 
-#hero-inner{
-    max-width: 800px;
-}
 
 
 
